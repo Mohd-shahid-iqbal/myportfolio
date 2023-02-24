@@ -5,7 +5,9 @@
 
   <p align="center">
     It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://mohd-shahid-iqbal.github.io/myportfolio/"</a>
+     <a href="https://github.com/Mohd-shahid-iqbal/myportfolio">Mohd-shahid-iqbal.github.io/portfolio</a>
+   
+   
    
   </p>
 </p>
