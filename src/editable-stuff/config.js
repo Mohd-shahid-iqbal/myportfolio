@@ -47,10 +47,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/shahid.png"),
+  imageLink: require("../editable-stuff/Shahid.jpg"),
   imageSize: 375,
   message:
-    "My name is Mohd Shahid Iqbal. I’m a post-graduate of 2020 from Jamia hamdard University at New Delhi with a degree in Masters of Computer Application . I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "Experienced Software developer with a demonstrated history of working in the IT/ software industry. I explored Software Development field soon after finishing my college, a quick learner who is keen to understand first and solve second. Specialties -React Js , Java Script, Typescript , PWA, Web Sockets,  Redux, HTML, CSS, Bootstrap and Spring boot, Strong software development professional with a Master in Computer Applications (MCA) from Jamia Hamdard and currently working at Pace trader Private Ltd  and is responsible for doing various IT projects on different technologies currently working on a trading platform which is managing  highly vast data from the web sockets and managing all the 6000 Indian stocks live feed and keeping application well optimized....",
   resume:
     "https://docs.google.com/document/d/1gDdMSvyTkcT8WWzZ3-gbiTpt9ROAjjQ0/edit?usp=sharing&ouid=115531536691684412006&rtpof=true&sd=true",
 };
@@ -145,9 +145,11 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "React", value: 90 },
+    { name: "Next", value: 70 },
+    { name: "PWD", value: 70 },
     { name: "JavaScript", value: 90 },
     { name: "Data Structures", value: 65 },
-    { name: "HTML/CSS", value: 55 },
+    { name: "HTML/CSS/SCSS", value: 80 },
     { name: "TypeScript", value: 80 },
     { name: "SQL", value: 75 },
   ],
@@ -177,15 +179,22 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: "Senior Software Engineer", // Here Add Company Name
-      companylogo: require("../assets/img/vendify.png"),
-      date: "May 2022 – Present",
-    },
-    {
       role: "React Developer",
       companylogo: require("../assets/img/simpana.png"),
       date: "Aug 2020 – May 2022",
-      style: { width: "424", height: "119" },
+      style: { width: "244px", height: "90px" },
+    },
+    {
+      role: "Senior Software Engineer", // Here Add Company Name
+      companylogo: require("../assets/img/vendify.png"),
+      date: "May 2022 – March 2023",
+      style: { width: "224px", height: "80px" },
+    },
+    {
+      role: "React Developer",
+      companylogo: require("../assets/img/paceTrader.png"),
+      date: "March 2023 – current",
+      style: { width: "224px", height: "80px" },
     },
   ],
 };
