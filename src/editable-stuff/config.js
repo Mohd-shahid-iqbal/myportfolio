@@ -177,15 +177,19 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: "Senior Software Engineer", // Here Add Company Name
-      companylogo: require("../assets/img/vendify.png"),
-      date: "May 2022 – Present",
-    },
-    {
       role: "React Developer",
       companylogo: require("../assets/img/simpana.png"),
       date: "Aug 2020 – May 2022",
-      style: { width: "424", height: "119" },
+    },
+    {
+      role: "Senior Software Engineer", // Here Add Company Name
+      companylogo: require("../assets/img/vendify.png"),
+      date: "May 2022 – March 2023",
+    },
+    {
+      role: "React Developer",
+      companylogo: require("../assets/img/paceTrader.png"),
+      date: "March 2023 – Present",
     },
   ],
 };

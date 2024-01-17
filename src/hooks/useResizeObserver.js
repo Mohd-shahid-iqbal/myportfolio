@@ -5,7 +5,6 @@ const useResizeObserver = (ref) => {
   React.useEffect(() => {
     const observeTarget = ref.current;
     const resizeObserver = new ResizeObserver((entries) => {
-      console.log("shahidddd", entries);
       entries.forEach((entry) => {
         setDimensions(entry.contentRect);
       });
